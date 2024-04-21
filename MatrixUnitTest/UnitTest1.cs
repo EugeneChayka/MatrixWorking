@@ -120,7 +120,7 @@ namespace MatrixUnitTest
             form.dataGrid2.Rows.Add(4, 5, 6);
             form.dataGrid2.Rows.Add(7, 8, 9);
 
-
+            //коммент
             form.btnMult_Click(null, EventArgs.Empty);
             Assert.AreEqual(30, form.dataGridResult.Rows[0].Cells[0].Value);
             Assert.AreEqual(36, form.dataGridResult.Rows[0].Cells[1].Value);
